@@ -1,5 +1,66 @@
-<html>
+<!DOCTYPE html>
+<html lang="es"
   <head>
+     <meta charset = "UTF-8">
+     <meta name="viewport" content=" width=device-width, initial-scale=1.0"
+     <title>Mi Portafolio</title>
+           <style>
+               body {
+                 font-family : Arial, sans-serif;
+                 margin: 0;
+                 padding : 20px;
+                 }
+                header{
+                    background-color: rgb(0, 2, 14);
+                    color: #fff ;
+                    padding: 20px;
+                    text-align: center;
+                }
+                nav{
+                    background-color: #161414;
+                    color: #030000;
+                    padding: 10px;
+                    border: 1px  #fff;
+                }
+                section{
+                    background-color: aquamarine;
+                    padding: 20px;
+                    margin: 20px;
+                    border: 1px solid;
+
+                }
+                aside{
+                    background-color: rgb(75, 75, 82); 
+                    padding: 20px;
+                }
+                footer{
+                    background-color: #c5c5f8;
+                    color: #030000; 
+                    text-align: center;
+                    position: fixed;
+                    bottom: 0;
+                    width: 100%;
+                }
+                p {
+                    color: rgb(8, 0, 0);
+                    border-color: #030000;
+                    border-style: solid;
+                }
+                
+           </style>
+  </head>
+  <body>
+     <header>
+        <center><h1>Habilidades</h1>
+            <li><a href="prueva4.html">Portafolio</a><li></li>
+            <li><a href="bibliografia.html">Biografia</a><li>
+            <li><a href="Proyectos.html">Proyectos</a><li>
+        </center>
+     </header>
+     <nav>
+        <html>
+  <head>
+    <center>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
       google.charts.load("current", {packages:["corechart"]});
@@ -7,14 +68,15 @@
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
           ['aptitudes', 'Porcentaje'],
-          ['Phyton',     50],
-          ['Html5',      25],
-          ['Javscript',  25],
-
+          ['Phyton',     10],
+          ['Html5',      10],
+          ['Javscript',  10],
+          ['SolidWorks', 40],
+          ['AutoCAD',    30],
         ]);
 
         var options = {
-          title: 'Havilidades',
+          title: 'Habilidades',
           pieHole: 0.4,
         };
 
@@ -27,3 +89,6 @@
     <div id="donutchart" style="width: 900px; height: 700px;"></div>
   </body>
 </html>
+     </nav>
+     <main>
+    </center>   
